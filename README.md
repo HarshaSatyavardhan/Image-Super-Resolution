@@ -8,17 +8,17 @@ Start with an image dataset and "crappify" the images, such as reducing the reso
 
 * The general adversarial network was invented by Ian Goddfellow, where two networks play a game. In our case, we will build a "crappifier" to make images worse, and the critic will try to determine which is fake and which is original. This will help us achieve super resolution.
 
-* Let's build a function first that will go through and "crappify" some data
+* First we build a function that will go through and "crappify" some data
 
-* And now lets get some data to work with we will use PETS dataset
+* And now lets get some data to work with ( we will use PETS dataset )
 
 * we'll make two folders, one for the low resolution and high resolution photos
 
-* Now lets generate our dataset
+* Now lets generate our crappify dataset
 
 * The goal of this model will be to generate our "super resolution" images
 
-* on the left will be crappified image and the right our original images
+* on the left side we will have crappified images and the right our original images
 
 * now we initiate UNET here
 
@@ -26,6 +26,6 @@ Start with an image dataset and "crappify" the images, such as reducing the reso
 
 * now lets build our critic
 
-* now we combine the two models together into a gan
+* now we combine the two models together into a gan (generator + critic)
 
 * then the last thing we had to define our gan
